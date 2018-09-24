@@ -18,3 +18,9 @@ class Div_test < Minitest::Test
     assert_equal(10, divide(20, 2))
   end
 end
+
+class Multipy_test < Minitest::Test
+  def test_multiply
+    assert_equal(54, multiply(27, 2))
+  end
+end
