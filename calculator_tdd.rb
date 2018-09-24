@@ -3,7 +3,7 @@ require 'minitest/autorun'
 
 class Add_test < Minitest::Test
   def test_add
-    assert_equal(14, add(6, 6))
+    assert_equal(12, add(6, 6))
   end
 end
 
