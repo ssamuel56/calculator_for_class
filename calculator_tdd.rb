@@ -12,3 +12,9 @@ class Sub_test < Minitest::Test
     assert_equal(15, subtract(20, 5))
   end
 end
+
+class Div_test < Minitest::Test
+  def test_divide
+    assert_equal(10, divide(20, 2))
+  end
+end
